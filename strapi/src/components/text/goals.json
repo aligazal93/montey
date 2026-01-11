@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_text_goals",
+  "info": {
+    "displayName": "goals",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "goal1": {
+      "type": "text"
+    },
+    "goal2": {
+      "type": "text"
+    },
+    "goal3": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
