@@ -1,33 +1,25 @@
 {
-  "name": "strapi",
+  "name": "montey-strapi-backend",
   "version": "0.1.0",
   "private": true,
-  "description": "A Strapi application",
+  "description": "Strapi backend project ready for Strapi Cloud",
   "scripts": {
     "build": "strapi build",
-    "console": "strapi console",
-    "deploy": "strapi deploy",
-    "dev": "strapi develop",
     "develop": "strapi develop",
     "start": "strapi start",
-    "strapi": "strapi",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
     "upgrade": "npx @strapi/upgrade latest",
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
+    "@strapi/strapi": "5.33.2",
     "@strapi/plugin-cloud": "5.33.2",
     "@strapi/plugin-users-permissions": "5.33.2",
-    "@strapi/strapi": "5.33.2",
-    "better-sqlite3": "12.4.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
-    "styled-components": "^6.0.0"
+    "better-sqlite3": "12.4.1"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
     "typescript": "^5"
   },
   "engines": {
